@@ -14,6 +14,11 @@
   border-radius: 5px;
    
 }
+
+.btn:hover{
+  background-color: #ee4444;
+  color:black;
+}
 body{
     max-width:1600px;
      margin: 0 auto;
@@ -75,8 +80,25 @@ nav {
  nav ul a{
     text-decoration:none;
     color: black;
+    padding: 10px;
+    
  }
 
+
+ nav ul a:hover{
+    text-decoration:none;
+    background-color: #30b868;
+    padding: 10px;
+    border-radius: 5px;
+       
+    color: black;
+    
+ }
+
+
+
+
+ 
  nav .btn{
     background-color:;
     margin-left: opx;
@@ -103,6 +125,15 @@ nav {
      border-radius: 40px;
      color: #30b868;
 }
+
+.Banner-text .btns:hover{
+      background-color: #30b868;
+      color: white;
+}
+
+
+
+
 
 .Banner-text .btns img{
     width: 16px;
@@ -151,6 +182,12 @@ nav {
   border-radius: 4px;
 }
 
+
+.Banner-text .btn-:hover{
+   background-color: #ee4444;
+    color: black;
+    border-radius: 4px;
+}
 /*  ---------------------------------  home section  close   --------------------------- */
 
 
