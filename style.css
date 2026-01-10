@@ -15,7 +15,7 @@
    
 }
 body{
-    width:1600px;
+    max-width:1600px;
      margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
@@ -30,7 +30,7 @@ body{
 i{
  color: rgb(255, 255, 255);
 }
-/* commom code close */
+/*-------------------------- commom code close---------------*/
 
 
 /* --------------------header section start ----------------------*/
@@ -45,10 +45,8 @@ body {
 }
 
 
-
-
 nav { 
-  width: 1344px;
+  max-width: 1344px;
   height: 92px;
   margin: 0 auto;
   display: flex;
@@ -57,14 +55,12 @@ nav {
 }            
  
 
- 
  nav .logo-navbar img {
      width: 139px;
      height: 60px;
      align-items: center;
       margin-top: 16px;
-      margin-bottom: 16px;
-     
+      margin-bottom: 16px; 
  }
 
  nav ul{
@@ -74,7 +70,6 @@ nav {
     gap: 32px;
     font-size: 16px;
     color: black;
-
  }
 
  nav ul a{
@@ -88,22 +83,16 @@ nav {
     margin-top: 24px;
     margin-bottom: 24px;
     justify-content:left;
-
-
  }
-
-
-
 
 
 
 /*       <!-- -----------home section end--------------------->   */
 .Banner{
   background-image: url(icon/hero-bg.png);
-  width: 1600px;
+  max-width: 1600px;
   height:674px ;
   position: relative;
-   
 
 }
 
@@ -122,8 +111,6 @@ nav {
     gap: 6px;
      
 }
- 
-
 
 .Banner-text{
     width:85%;
@@ -174,19 +161,17 @@ nav {
    
  }
   .card-size{
-    width: 1360px;
+    max-width: 1360px;
     margin: 0px 120px ;
   }
 
 
  .heading{
-  width: 1360px;
+  max-width: 1360px;
   height: 152px;
   background-color: rgb(255, 255, 255);
   text-align:center;
   position: relative;
-   
- 
    
  }
 
@@ -200,29 +185,18 @@ nav {
   font-weight: bold;
 }
  .card-section .card-size .heading span{
-   
     color: #627382;
     position: absolute;
     bottom: 0px;
     left: 320px;
-    font-size: 16px;
-     
-   
+    font-size: 16px; 
  }
 
-
-
-
- 
-
  .cards{
-
   width: 1360px;
   height: 300px;
   display: flex;
-  gap: 24px;
-  
-
+  gap: 24px; 
  }
 
 
@@ -232,9 +206,7 @@ nav {
   height: 300px;
   background-color: #ffffff;
   text-align: center; 
-  border-radius: 8px;
- 
-  
+  border-radius: 8px; 
 }
 
 .cards .card img{
@@ -244,8 +216,6 @@ nav {
    margin-top: 69.5px;
 }
 
-
-
 .card p{
   font-size: 24px;
   padding: 16px;
@@ -254,9 +224,6 @@ nav {
 
 .card h{
   margin: 190.5px 24px 69.5px 24px;
-  
- 
-
 }
 
 
@@ -266,18 +233,15 @@ nav {
 /*  -----------Solution section start--------------  */
  .solution{
     height:840px;
-    position: relative;
-    
+    position: relative;  
  }
 
  .solution .solution-size{
-  width:1360px;
+  max-width:1360px;
   height:600px;
   position:absolute;
   margin: 120px;
   position: absolute;
-  
-  
    
  }
 
@@ -293,14 +257,12 @@ nav {
      width: 700px;
      height:396;
 
-
  }
 
  .solution-text-div span{
    color: #30b868;
    font-size: 16px;
  }
-
 
  .solution-text-div h1{
     font-size: 48px;
@@ -312,6 +274,7 @@ nav {
 
  }
 
+
 .solution-text-div img{
   width: 16.25px;
   height: 16.25px;
@@ -320,41 +283,31 @@ nav {
 
  .solution-text-div ul{
       list-style-type:none;
-       
-
  }
 
   .solution-text-div li{
     padding: 6px;
     margin-left: 16px;
-
      
-     
-
  }
 
-/*   -----------Solution section close---------------  */
+/*   -----------Solution section close--------------- ------- */
 
 
-
-
-/*------------------------- contactt section start ---------------------------------------*/
+/*------------------------- contact section start ---------------------------------------*/
 .contact-section{
-  width: 1600px;
+  max-width: 1600px;
   height: 506px;
   position: relative;
 }
 
 .contact-section .contact-div{
-  width: 1360px;
+   width: 1360px;
   height: 384px;
   background-color: #F7F6F2;
   position: absolute;
   margin:0px 120px 120px 120px;
   text-align: center;
-
-
-
 }
 
 .contact-div-contain{
@@ -365,7 +318,6 @@ nav {
 .contact-div-contain h1{
   font-size: 40px;
   padding: 16px;
-
 }
 
 .contact-div-contain p{
@@ -386,10 +338,7 @@ nav {
   
 }
 
-
-
-
-/*------------------------- contactt section end ---------------------------------------*/
+/*------------------------- contact-section-end ---------------------------------------*/
 
 
 /* ---------------------footer-section  start  ------------------*/
@@ -397,8 +346,8 @@ nav {
     height: 348px;
     background-color: #001F3F;
     position: relative;
+    
    }
-
 
    .footer-contain{
     position: absolute;
@@ -408,11 +357,13 @@ nav {
     display: flex;
     justify-content: space-between;
    }
+
 .footer-contain p{
   color:white;
   margin: 0px 107px 16px 0px;
   font-size: 20px;
 }
+
 .footer-contain i{
     background-color:#ffffff;
     width: 22px;
@@ -420,24 +371,19 @@ nav {
     color: black;
     border-radius: 50%;
     justify-content: center;
-    align-content:center;
-     
-   
+    align-content:center: 
 }
 footer .right{
   position: absolute;
   margin: 294px 120px 10px 600px; 
-  
 }
+
 
 footer p{
   color: #FAFAFA;
   margin: 0 auto;
   font-size: 16px;
-   
- 
-  
 }
 
 
-/* ---------------------footer-section  start  ------------------*/
+/* ---------------------footer-section  start------------------*/
