@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* commom code start  */
+/*------------------- commom code start-----------  */
 .btn {
   color: white;
   background-color: #30b868;
@@ -12,6 +12,7 @@
   font-size: 16px;
   border: none;
   border-radius: 5px;
+   
 }
 body{
     width:1600px;
@@ -27,7 +28,7 @@ body{
 }
 
 i{
- color: wheat;
+ color: rgb(255, 255, 255);
 }
 /* commom code close */
 
@@ -75,8 +76,9 @@ nav {
     color: black;
 
  }
+
  nav ul a{
-    text-decoration: none;
+    text-decoration:none;
     color: black;
  }
 
@@ -162,4 +164,280 @@ nav {
   border-radius: 4px;
 }
 
-/*  ---------------------------------  Banner section  close   --------------------------- */
+/*  ---------------------------------  home section  close   --------------------------- */
+
+
+
+/*-----------------------card section start-----------*/
+ .card-section{
+  height: 452px;
+   
+ }
+  .card-size{
+    width: 1360px;
+    margin: 0px 120px ;
+  }
+
+
+ .heading{
+  width: 1360px;
+  height: 152px;
+  background-color: rgb(255, 255, 255);
+  text-align:center;
+  position: relative;
+   
+ 
+   
+ }
+
+ .card-section .card-size .heading p{
+   position: absolute;
+   left: 305px;
+   top:68px;
+   font-size: 48px;
+   text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+ .card-section .card-size .heading span{
+   
+    color: #627382;
+    position: absolute;
+    bottom: 0px;
+    left: 320px;
+    font-size: 16px;
+     
+   
+ }
+
+
+
+
+ 
+
+ .cards{
+
+  width: 1360px;
+  height: 300px;
+  display: flex;
+  gap: 24px;
+  
+
+ }
+
+
+
+.card {
+  width: 322px;
+  height: 300px;
+  background-color: #ffffff;
+  text-align: center; 
+  border-radius: 8px;
+ 
+  
+}
+
+.cards .card img{
+    background-color:#F95555;
+    border-radius: 50%;
+    padding: 10px;
+   margin-top: 69.5px;
+}
+
+
+
+.card p{
+  font-size: 24px;
+  padding: 16px;
+  font-weight: bold;
+}
+
+.card h{
+  margin: 190.5px 24px 69.5px 24px;
+  
+ 
+
+}
+
+
+/*--------------------- card section  end---------------*/
+
+
+/*  -----------Solution section start--------------  */
+ .solution{
+    height:840px;
+    position: relative;
+    
+ }
+
+ .solution .solution-size{
+  width:1360px;
+  height:600px;
+  position:absolute;
+  margin: 120px;
+  position: absolute;
+  
+  
+   
+ }
+
+  .solution-size img{
+    position: absolute;
+    left:0px;
+
+  }
+
+ .solution .solution-size .solution-text-div {
+   position: absolute;
+     margin: 102px 0px 102px 660px;
+     width: 700px;
+     height:396;
+
+
+ }
+
+ .solution-text-div span{
+   color: #30b868;
+   font-size: 16px;
+ }
+
+
+ .solution-text-div h1{
+    font-size: 48px;
+    font-weight: bold;
+ }
+ .solution-text-div P{
+   font-size: 16px;
+   color: #627382;
+
+ }
+
+.solution-text-div img{
+  width: 16.25px;
+  height: 16.25px;
+  margin: 6px 10px 0px 0px;
+}
+
+ .solution-text-div ul{
+      list-style-type:none;
+       
+
+ }
+
+  .solution-text-div li{
+    padding: 6px;
+    margin-left: 16px;
+
+     
+     
+
+ }
+
+/*   -----------Solution section close---------------  */
+
+
+
+
+/*------------------------- contactt section start ---------------------------------------*/
+.contact-section{
+  width: 1600px;
+  height: 506px;
+  position: relative;
+}
+
+.contact-section .contact-div{
+  width: 1360px;
+  height: 384px;
+  background-color: #F7F6F2;
+  position: absolute;
+  margin:0px 120px 120px 120px;
+  text-align: center;
+
+
+
+}
+
+.contact-div-contain{
+  margin: 80px;
+
+}
+
+.contact-div-contain h1{
+  font-size: 40px;
+  padding: 16px;
+
+}
+
+.contact-div-contain p{
+  font-size: 16px;
+  color: #627382;
+}
+
+.contact-div-contain div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.contact-div-contain button{
+  margin: 24px;
+  justify-content: space-between;
+  
+}
+
+
+
+
+/*------------------------- contactt section end ---------------------------------------*/
+
+
+/* ---------------------footer-section  start  ------------------*/
+   footer{
+    height: 348px;
+    background-color: #001F3F;
+    position: relative;
+   }
+
+
+   .footer-contain{
+    position: absolute;
+    width: 1360px;
+    height: 64px;
+    margin: 120px;
+    display: flex;
+    justify-content: space-between;
+   }
+.footer-contain p{
+  color:white;
+  margin: 0px 107px 16px 0px;
+  font-size: 20px;
+}
+.footer-contain i{
+    background-color:#ffffff;
+    width: 22px;
+    height: 22px;
+    color: black;
+    border-radius: 50%;
+    justify-content: center;
+    align-content:center;
+     
+   
+}
+footer .right{
+  position: absolute;
+  margin: 294px 120px 10px 600px; 
+  
+}
+
+footer p{
+  color: #FAFAFA;
+  margin: 0 auto;
+  font-size: 16px;
+   
+ 
+  
+}
+
+
+/* ---------------------footer-section  start  ------------------*/
